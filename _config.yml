@@ -6,13 +6,13 @@ ios_app_id                                : 1267678125                          
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : A simple project tracker for knitters and crocheters.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -34,33 +34,33 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Organize Your Projects
+    description                           : Add details, photos, tags, notes, and links about all your crafty creations. 
+    fontawesome_icon_name                 : tags
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Never Lose Your Place
+    description                           : View pattern PDFs with adjustable markers and customizable row/stitch counters.
+    fontawesome_icon_name                 : highlighter
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Track Your Stash
+    description                           : Add photos and details about the yarn you own and sort by name, colorway, weight, and more.
+    fontawesome_icon_name                 : search
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Substitute and Convert
+    description                           : Built-in calculators help you substitute yarns and convert between metric and imperial units.
+    fontawesome_icon_name                 : balance-scale
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
+  - title                                 : Count From Your Wrist
+    description                           : YarnBuddy's companion Apple Watch app allows quick and easy access to all of your row counters.
+    fontawesome_icon_name                 : hand-point-up
   
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Choose Your Theme
+    description                           : Go dark, stay light, or let the system decide.
+    fontawesome_icon_name                 : adjust
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Never Miss An Occasion
+    description                           : Set due dates for projects and be reminded at a time of your choosing (Pro only).
+    fontawesome_icon_name                 : birthday-cake
 
   - title                                 : Social Links
     description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
