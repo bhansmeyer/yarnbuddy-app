@@ -35,7 +35,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Organize Your Projects
-    description                           : Add details, photos, tags, notes, and links about all your crafty creations. 
+    description                           : Enter project details and add photos, notes, tags, and more.
     fontawesome_icon_name                 : tags
     
   - title                                 : Never Lose Your Place
@@ -44,7 +44,7 @@ features                                  :
 
   - title                                 : Track Your Stash
     description                           : Add photos and details about the yarn you own and sort by name, colorway, weight, and more.
-    fontawesome_icon_name                 : search
+    fontawesome_icon_name                 : archive
 
   - title                                 : Substitute and Convert
     description                           : Built-in calculators help you substitute yarns and convert between metric and imperial units.
