@@ -50,9 +50,9 @@ features                                  :
     description                           : Built-in calculators help you substitute yarns and convert between metric and imperial units.
     fontawesome_icon_name                 : balance-scale
 
-  - title                                 : Count From Your Wrist
-    description                           : YarnBuddy's companion Apple Watch app allows quick and easy access to all of your row counters.
-    fontawesome_icon_name                 : hand-point-up
+  - title                                 : # Count From Your Wrist
+    description                           : # YarnBuddy's companion Apple Watch app allows quick and easy access to all of your row counters.
+    fontawesome_icon_name                 : # hand-point-up
   
   - title                                 : Choose Your Theme
     description                           : Go dark, stay light, or let the system decide.
@@ -62,13 +62,13 @@ features                                  :
     description                           : Set due dates for projects and be reminded at a time of your choosing (Pro only).
     fontawesome_icon_name                 : birthday-cake
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+  - title                                 : # Social Links
+    description                           : # Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
+    fontawesome_icon_name                 : # link
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : # FontAwesome Support
+    description                           : # Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+    fontawesome_icon_name                 : # info-circle
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
