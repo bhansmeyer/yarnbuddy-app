@@ -19,14 +19,14 @@ YarnBuddy is free to use for up to 10 projects. Unlimited projects, as well as t
 
 ### App Store Details
 
-*Apple App ID*
+**Apple App ID**
 1267678125
 
-*Category*
+**Category**
 Lifestyle
 
-*Developer Name*
+**Developer Name**
 Rebecca (Becky) Hansmeyer
 
-*Developer Contact*
+**Developer Contact**
 You can reach me at [feedback@beckyhansmeyer.com](mailto:feedback@beckyhansmeyer.com) and on Twitter at [@bhansmeyer](https://twitter.com/bhansmeyer) or [@yarnbuddyapp](https://twitter.com/yarnbuddyapp). I also blog at [beckyhansmeyer.com](https://beckyhansmeyer.com).
