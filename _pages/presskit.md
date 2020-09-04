@@ -33,3 +33,4 @@ You can reach me at [feedback@beckyhansmeyer.com](mailto:feedback@beckyhansmeyer
 
 ### Screenshots
 ![image](/assets/images/iPadOS-1.jpg){:class="img-responsive"}
+<img src="/assets/images/iPadOS-1.jpg" width="300" />
