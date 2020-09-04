@@ -33,12 +33,16 @@ You can reach me at [feedback@beckyhansmeyer.com](mailto:feedback@beckyhansmeyer
 
 ### Screenshots
 <p float="left">
-<img src="/assets/images/iPadOS-1.jpg" width="500" />
-<img src="/assets/images/iPadOS-2.jpg" width="500" />
+<img src="/assets/images/iOS-1.jpg" width="300" />
+<img src="/assets/images/iOS-2.jpg" width="300" />
 </p>
 <p float="left">
-<img src="/assets/images/iPadOS-3.jpg" width="500" />
-<img src="/assets/images/iPadOS-4.jpg" width="500" />
+<img src="/assets/images/iOS-3.jpg" width="300" />
+<img src="/assets/images/iOS-4.jpg" width="300" />
+</p>
+<p float="left">
+<img src="/assets/images/iOS-5.jpg" width="300" />
+<img src="/assets/images/iOS-6.jpg" width="300" />
 </p>
 <p float="left">
 <img src="/assets/images/watchOS-1.jpg" width="150" />
@@ -47,14 +51,15 @@ You can reach me at [feedback@beckyhansmeyer.com](mailto:feedback@beckyhansmeyer
 <img src="/assets/images/watchOS-4.jpg" width="150" />
 </p>
 <p float="left">
-<img src="/assets/images/iOS-1.jpg" width="300" />
-<img src="/assets/images/iOS-2.jpg" width="300" />
-</p>
-<p float="left>
-<img src="/assets/images/iOS-3.jpg" width="300" />
-<img src="/assets/images/iOS-4.jpg" width="300" />
+<img src="/assets/images/iPadOS-1.jpg" width="300" />
+<img src="/assets/images/iPadOS-2.jpg" width="300" />
 </p>
 <p float="left">
-<img src="/assets/images/iOS-5.jpg" width="300" />
-<img src="/assets/images/iOS-6.jpg" width="300" />
+<img src="/assets/images/iPadOS-3.jpg" width="300" />
+<img src="/assets/images/iPadOS-4.jpg" width="300" />
 </p>
+<p float="left">
+<img src="/assets/images/iPadOS-5.jpg" width="300" />
+<img src="/assets/images/iPadOS-6.jpg" width="300" />
+</p>
+
