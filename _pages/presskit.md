@@ -34,4 +34,7 @@ You can reach me at [feedback@beckyhansmeyer.com](mailto:feedback@beckyhansmeyer
 ### Screenshots
 <img src="/assets/images/iPadOS-1.jpg" width="600" />
 <img src="/assets/images/iPadOS-2.jpg" width="600" />
-<img src="/assets/images/watchOS-1.jpg" width="100" /><img src="/assets/images/watchOS-2.jpg" width="100" />
+<p float="left">
+<img src="/assets/images/watchOS-1.jpg" width="100" />
+<img src="/assets/images/watchOS-2.jpg" width="100" />
+</p>
