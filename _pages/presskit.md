@@ -32,4 +32,4 @@ Rebecca (Becky) Hansmeyer
 You can reach me at [feedback@beckyhansmeyer.com](mailto:feedback@beckyhansmeyer.com) and on Twitter at [@bhansmeyer](https://twitter.com/bhansmeyer) or [@yarnbuddyapp](https://twitter.com/yarnbuddyapp). I also blog at [beckyhansmeyer.com](https://beckyhansmeyer.com).
 
 ### Screenshots
-<img src="assets/images/iPadOS-1.jpg" width="600">
+![image](/assets/images/iPadOS-1.jpg){:class="img-responsive"}
