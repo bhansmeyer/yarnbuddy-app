@@ -8,6 +8,24 @@ include_in_header: true
 
 ### `Latest`
 
+## Version 1.2
+Lots of goodies in this update! Starting with...
+- The iPad version has a new sidebar for navigation and easy access to tags.
+- You can now import pattern PDFs from your Ravelry library!
+- Count from your wrist with the new Apple Watch companion app! (syncs via iCloud)
+- Look up an unfamiliar abbreviation with the new Common Abbreviations tool.
+
+Other new features/fixes:
+- Select any color for your counters and tags using the new system color picker.
+- Import PDFs via drag and drop on iPad by dragging them onto the Import Pattern button.
+- Enter the total rows for a project and see a visual indication of progress.
+- Enter yarn quantities in terms of number of skeins (including decimal values) or total weight (grams or ounces).
+- New sort button for projects and yarn that displays the currently selected sort parameter.
+- Fixed: Text fields will no longer have unreadable text when switching between light and dark mode.
+
+<br>
+### `Previous`
+
 ## Version 1.0.1
 - Import multiple patterns per project! To add additional documents, enter Edit Mode on a project's detail page and tap "Import Pattern."
 - Project and yarn notes can now be edited.
