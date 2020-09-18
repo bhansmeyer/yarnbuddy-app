@@ -24,7 +24,6 @@ Other new features/fixes:
 - Fixed: Text fields will no longer have unreadable text when switching between light and dark mode.
 
 <br>
-### `Previous`
 
 ## Version 1.0.1
 - Import multiple patterns per project! To add additional documents, enter Edit Mode on a project's detail page and tap "Import Pattern."
