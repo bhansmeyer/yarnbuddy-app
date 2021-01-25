@@ -8,6 +8,32 @@ include_in_header: true
 
 ### `Latest`
 
+## Version 1.4
+- Refreshed design with 5 new themes! Themes can also be applied to the widget.
+- Project details are now divided into two sections: basic details and notes.
+- You can now view your project photos at full size.
+- You can now delete a project from the Apple Watch app by swiping left on its name in the project list.
+- Fixed: A bug that caused annotation mode to be entered automatically when viewing a pattern.
+
+<br>
+
+## Version 1.3.1
+- Added: 1.75 mm and 2 mm knitting needle sizes.
+- Added: additional tools such as darning needles and knitting looms. The list is a work-in-progress; feel free to contact me with other tools/materials you'd like to see.
+- Added: additional craft options such as cross-stitch, sewing, and loom knitting. These options are revealed after selecting Other.
+- Added: a dedicated field for entering a project's gauge.
+- Minor bug fixes.
+
+<br>
+
+## Version 1.3
+- Pattern annotation is here! If you've subscribed to or purchased YarnBuddy Pro, you can now create hand-written notes and highlights on your patterns using your finger or Apple Pencil.
+- Added: a new spooky alternate app icon.
+- Fixed: the "Add Yarn" screen can now be properly dismissed on iPad.
+- Fixed: editing the ending value of a linked counter should no longer cause the app to crash.
+
+<br>
+
 ## Version 1.2
 Lots of goodies in this update! Starting with...
 - The iPad version has a new sidebar for navigation and easy access to tags.
