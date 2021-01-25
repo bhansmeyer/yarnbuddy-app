@@ -5,7 +5,7 @@ include_in_header: false
 ---
 
 **Last updated**  
-September 1, 2020
+January 24, 2021
 
 # Press Kit
 
