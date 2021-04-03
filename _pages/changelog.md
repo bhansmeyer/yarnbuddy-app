@@ -8,6 +8,33 @@ include_in_header: true
 
 ### `Latest`
 
+## Version 1.5.2
+- Fixed: Projects and yarn created before version 1.3 should now sync properly between devices. This should also resolve sync issues with the widget and watch app.
+- Fixed: Tapping and holding on a yarn in the stash and selecting \"Add note\" from the drop-down menu should work again."
+- Added: Your yarn stash is now searchable!
+- Other minor bug fixes.
+
+<br>
+
+## Version 1.5.1
+- Fixed: The app should now update the status bar text color to match the currently selected theme.
+- Fixed: Temporarily removed text describing how long ago a project was updated, as it was causing a crash.
+- Other minor bug fixes.
+
+<br>
+
+## Version 1.5
+- You can now export a zip archive of all of your YarnBuddy data for archival purposes, including images and pattern PDFs. Projects and yarn details are saved as plain text files.
+- Minor bug fixes.
+
+<br>
+
+## Version 1.4.1
+- Fixed: When adding a new yarn to a project, the app should now properly set the yarn's image.
+- Fixed: The widget's font color should now be readable against the background in both light and dark mode.
+
+<br>
+
 ## Version 1.4
 - Refreshed design with 5 new themes! Themes can also be applied to the widget.
 - Project details are now divided into two sections: basic details and notes.
