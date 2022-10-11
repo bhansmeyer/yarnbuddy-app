@@ -8,6 +8,21 @@ include_in_header: true
 
 ### `Latest`
 
+## Version 1.9.1
+- Fixed: For patterns added from your photo library, it is now possible to zoom out far enough to see the entire pattern at once.
+- Improved: More performance improvements for users with large project libraries.
+
+<br>
+
+## Version 1.9
+- Added: You can now export your projects as PDF files. Tap the share button in the upper right corner of your project's detail view to generate a PDF. Tap the share button at the bottom of the preview (or top, on iPad) to choose whether or print it, save it, or share it using another app.
+- Improved: Image optimization! Photos should load faster and take up less memory when viewed.
+- Improved: Your project's key photo will be shown at the top of its detail page. All other photos have been moved to a new Photos section below the Patterns section. From there, you can add new photos, drag photos to rearrange them, or tap on a photo to view it in a full screen gallery view.
+- Improved: You can now re-order your counters by tapping on the icon with three horizontal lines in the top right of the counter drawer.
+- Fixed: A bug that prevented user-created tools from being added to projects.
+
+<br>
+
 ## Version 1.8.6
 - Fixed: iOS 14 users should no longer experience a crash when adding or editing a project.
 
