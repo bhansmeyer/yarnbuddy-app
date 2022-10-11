@@ -1,0 +1,279 @@
+---
+layout: page
+title: User Guide
+include_in_header: false
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<title>YarnBuddy User Guide</title>
+	<style type="text/css" media="screen">
+		body{
+            font: -apple-system-body;
+			font-family: helvetica, arial, sans-serif;
+			line-height:1.5em;
+			margin: 0 auto;
+			max-width: 800px;
+			min-width: 280px;
+			padding: 20px;
+			background: #fff;
+			color: #111;
+			text-shadow: rgba(255,255,255,.3) 0 1px 0;
+		}
+		details > summary {
+			color: #9435FF;
+		}
+		details > p:nth-child(2) {
+			padding-top: 1em;
+		}
+		h1{
+			margin: 0 0 15px 0;
+			font-size: 2.8rem;
+			font-weight: 700;
+			color: #111;
+			line-height: 1.2em;
+		}
+		h2{
+			font-size: 1.25rem;
+			font-weight: 700;
+			border-top: 1px dotted #aaa;
+			padding-top: 1em;
+			margin: 0 0 15px 0;
+			color: #111;
+		}
+		p{
+			margin: 0 0 15px 0;
+		}
+        a{
+            color: #9435FF;
+        }
+		</style>
+</head>
+<body>
+
+<h1>YarnBuddy User Guide</h1>
+
+
+<h2>General</h2>
+<details>
+  <summary>Upgrading to YarnBuddy Pro</summary>
+  <p>YarnBuddy Pro is available as a one-time purchase or annual subscription, and adds the following features:</p>
+  <ul>
+	  <li>Unlimited projects.</li>
+	  <li>Organize your projects using tags.</li>
+	  <li>Add hand-written highlights and annotations to your pattern PDFs.</li>
+	  <li>Add notes to your projects and yarn. These notes can also contain links with rich previews (such as videos).</li>
+	  <li>Add reminders that display on a particular row (these can also repeat).</li>
+	  <li>Get reminded when a project is due (for example, if you're making a wedding or birthday gift).</li>
+	  <li>Track how much time you spend on each project.</li>
+	  <li>Set an alternative app icon.</li>
+  </ul>
+  <p>To upgrade to YarnBuddy Pro, visit the Settings tab in YarnBuddy and tap "Upgrade to YarnBuddy Pro."</p>
+</details>
+<details>
+<summary>Exporting your data</summary>
+<p>In YarnBuddy, go to Settings > Export Data. You may export your data as plain text (.txt) files, and optionally include all images and pattern PDFs. Everything will be bundled together as a .zip file for you to download. Note: this does not serve as a backup that can be re-imported to YarnBuddy. It is more like an archive.</p>
+<p>You can also export your yarn stash as a CSV file. If you'd like to export individual projects as PDF files, see "Exporting a project as a PDF" in the Projects section below.</p>
+<p>Future plans include the ability to create a backup file that can be re-imported to YarnBuddy, just in case.</p>
+</details>
+<details>
+<summary>Troubleshooting sync</summary>
+<p>YarnBuddy uses iCloud to sync between devices. It make take several minutes for you to see changes propagate from one device to another, depending on the amount of data to be synced. Smaller updates, such as incrementing a counter, should typically appear with a few seconds. If you experience issues with sync, here are a few things you can try:</p>
+<ol>
+	<li>If the issue is between an iPhone and iPad, ensure you're using the same version of YarnBuddy and that no updates are available. The current version is always listed at the bottom of the Settings screen.</li>
+	<li>Reboot both devices.</li>
+	<li>Delete and reinstall YarnBuddy on the device that's not receiving changes.</li>
+	<li>Make sure you are connected to wi-fi.</li>
+	<li>Make sure you are signed in to iCloud in the Settings app and that iCloud is enabled for YarnBuddy under Settings > Your Apple ID > iCloud.</li>
+    <li>Make sure that iCloud Drive is enabled under Settings > Your Apple ID > iCloud.</li>
+</ol>
+</details>
+
+<details>
+<summary>iCloud error codes</summary>
+<p>Unfortunately, iCloud error codes are sparsely documented by Apple. The following codes are ones I've managed to reproduce, and therefore can offer a solution for.
+<ul>
+    <li>Cocoa error 134400, 134406, or 134410: "Account temporarily unavailable... user rejected a prompt to enter their iCloud account password." <strong> Solution: Open the Settings app, tap on your iCloud account at the top, and see if you are prompted to enter your iCloud password.</strong> Sync won't work unless you are fully logged in to a valid iCloud account.</li>
+    <li>Cocoa error 134419: This error can occur if your app has a <em>lot</em> of changes/data to upload to iCloud at once. <strong> Solution: The only option here is to wait it out; the system should eventually process all of the changes and begin the upload process.</strong></li>
+    <li>Cocoa error 134421: iCloud is trying to <em>import</em> a lot of changes/data and is running out of memory to do so. This error is likely the result of a bug in Apple's systems that may have been fixed in iOS 15.5. <strong>Solution: If your device is running an older version of iOS, update to iOS 15.5 or higher.</strong></li>
+        
+</ul>
+</details>
+
+
+<br>
+
+<h2>Projects</h2>
+
+<details>
+<summary>Adding a new project</summary>
+<p>To add a new project on iPhone, tap the + button in the bottom-right corner of the Projects screen. On iPad, the "Add" button is located in the navigation bar above the project list.</p>
+<p>From the Add Project screen, you can enter various details about your project such as yarns, tools, gauge, total rows, etc. All of these details can be changed later. After the project is created, you can add additional images, import pattern PDFs, and configure counters.</p>
+</details>
+
+<details>
+<summary>Duplicating a project</summary>
+<p>To duplicate a project, tap and hold on its name in the project list and select "Duplicate" from the pop-up menu. A new project will be added to your list with today's date, a status of "In Progress," and all existing details, counters, yarns, row notes, images, patterns, and notes. Pattern annotations are not duplicated.</p>
+</details>
+
+<details>
+<summary>Archiving a project</summary>
+<p>If your project list is getting too cluttered with old projects (finished or unfinished), you can choose to archive those projects, which will move them to the "Archived" section of the project list. To archive a project, you can either 1) tap and hold on its name in the project list and select "Archive." or 2) open the project, tap "Edit" in the upper-right" corner, and toggle "Archived." Both methods can be repeated to unarchive the project.</p>
+</details>
+
+<details>
+<summary>Marking a project as finished</summary>
+<p>To mark a project as finished, open the project and tap "Edit" in the upper-right corner. Tap on "Finished" to move the segmented control from "In Progress" to "Finished." A new "Completion Date" field will appear pre-populated with the current date and time; you can edit it as needed. Finished projects are denoted by a checkmark in the project list.</p>
+</details>
+
+<details>
+<summary>Deleting a project</summary>
+<p>There are two ways to delete a project:</p>
+<ol>
+	<li>Tap and hold on the project's name in the project list and select "Delete."</li>
+	<li>Open the project, tap "Edit" in the upper-right corner, scroll down and tap "Delete Project" in red at the bottom of the screen.</li>
+</ol>
+</details>
+
+<details>
+<summary>Adding yarn to a project</summary>
+<ol>
+	<li>To add yarn while creating a new project, tap the "Add Yarn" button on the New Project screen. A context menu will appear. For existing projects, tap the plus (+) button in the Yarn section.</li>
+	<li>If you would like to add a yarn that you've already entered into the Stash section, select "Choose from stash." Otherwise, select "New yarn."</li>
+	<li>For new yarn, enter details about the yarn and select "Save." The new yarn will automatically be added to your stash. If you remove it from your stash, it will still be visible inside your project.</li>
+	<li>For stashed yarn, tap the yarn you wish to add to your project and enter the required quantity. When you mark your project as "Finished," this quantity will be automatically deducted from your total stashed amount.</li>
+</ol>
+
+</details>
+
+<details>
+<summary>Exporting a project as a PDF</summary>
+<p>To export a project as a PDF, tap the share button in the upper right corner of the project's detail screen. A preview of the final PDF will appear. Tap the share button at the bottom (on iPhone) or top (on iPad) of the preview to save the PDF using the system share sheet.</p>
+</details>
+
+<br>
+
+<h2>Patterns</h2>
+
+<details>
+<summary>Importing a pattern</summary>
+<p>To import a pattern, select the "Import" button in the Patterns section of the project detail screen. There are four sources for imported files:</p>
+<ul>
+	<li>Your Ravelry Library: you will be prompted to log in to Ravelry and grant authorization for YarnBuddy to access your library PDFs. YarnBuddy does NOT see any of your personal information, including your Ravelry username and password. Once you've granted authorization, you can select a PDF from your Ravelry library.</li>
+	<li>A web page: a web browser will open to the search engine DuckDuckGo. From there, you can search the web for a pattern and save the website as a PDF.</li>
+	<li>Your photo library: you can use this option to import a photo that you've taken of a printed pattern. The photo will be converted to a PDF.</li>
+	<li>Your files: browse your local files on device, your iCloud drive, or any other services you've connected to Files (including Dropbox) for pattern PDFs.</li>
+</ul>
+	
+</details>
+
+<details>
+<summary>Annotating a pattern</summary>
+<p>YarnBuddy Pro users have the ability to annotate their pattern PDFs using their finger or Apple Pencil. To annotate a pattern:</p>
+<ol>
+	<li>Open the pattern you wish to annotate.</li>
+	<li>On iPhone, tap the squiggle icon in the upper-right corner to enter annotation mode. On iPad, tap "Annotate" in the upper-right corner.</li>
+	<li>The standard iOS markup tools such as pencil, highlighter, and marker will appear at the bottom of the screen. You can scroll the PDF using a two-finger pan gesture, and make annotations using your finger or an Apple Pencil (iPad only).</li>
+	<li>When you are done annotating your pattern, tap "Done" in the upper-right corner to exit annotation mode.</li>
+</ol>
+</details>
+
+<br>
+
+<h2>Counters</h2>
+
+<details>
+<summary>Adding a new counter</summary>
+<p>Your counters live in an expandable drawer at the bottom of the project detail screen or pattern screen. To add a new counter, tap the plus (+) icon in the upper-right corner of the counter drawer.</p>
+</details>
+<details>
+<summary>Reordering counters</summary>
+<p>To rearrange your counters, tap the icon with three lines stacked vertically in the top right corner of the counters drawer. A list of your counters will appear, with drag handles to the right. Drag the counters up or down to reorder them. If you do not see drag handles on the right side of the counters, tap "Edit" in the upper right. When you are done, tap "Dismiss" to save the new order.</p>
+</details>
+<details>
+<summary>Configuring a repeating counter</summary>
+<p>To configure a repeating counter, tap and hold on the counter and select "Edit" from the pop-up menu. Under "Repeat Settings," toggle "Repeating Counter" to the "on" position. If you've already completed some repeats, you can optionally adjust the number of completed repeats.</p>
+<p>In order for a repeating counter to work, you must enter an ending value. When the counter reaches the ending value, it automatically resets to the starting value and the number of repeats increases by one.</p>
+<p>For example, a counter with a starting value of 0 and an ending value of 6 will advance to 1 the first time you tap it, then 2, all the way up to 5. When the counter reads 5, the next increment will reset it to 0.</p>
+</details>
+<details>
+<summary>Configuring a linked counter</summary>
+<p>To link a child counter to a parent counter, tap and hold on the child counter and select "Edit" from the pop-up menu. Under "Link Settings," toggle "Link Counter" to the "on" position. A list of possible counters will appear. Tap on the counter you wish to link to and tap "Done" to exit the editor.</p>
+<p>Every increment and decrement of the child counter will increment/decrement the parent counter accordingly. However, changes made to the parent counter will NOT affect its child counter(s). This is because a parent counter can have multiple child counters and it would be impossible to know which one to adjust.</p>
+<p>For example, if Counter A and Counter B are both linked to the Total Rows counter, Total Rows will respond to changes in either child counter. Total Rows will be adjusted by the interval of each counter, so if Counter A is set to an interval of 2, Total Rows will increment by 2 each time Counter A is tapped. However, if Total Rows is decremented separately, Counter A and Counter B's values will remain unchanged.</p>
+</details>
+<details>
+<summary>Adding a row note (alert)</summary>
+<p>To add an alert that will appear when a particular row is reached:</p>
+<ol>
+<li>Tap and hold on the counter that will trigger the alert and select "Edit" from the pop-up menu.</li>
+<li>Tap the plus (+) button next to "Row Alerts." A series of fields will appear along with "Cancel" and "Save" buttons.</li>
+<li>Enter the row number of the first row that will trigger the alert.</li>
+<li>Enter your desired reminder message.</li>
+<li>If you want the message to appear at a regular interval, toggle "Repeat at interval" on and enter the interval and, optionally, an ending row.</li>
+<li>Tap "Save" in the upper-right corner of the section where you just entered the row note information.</li>
+</ol>
+</details>
+
+<br>
+
+<h2>Yarn Stash</h2>
+
+<details>
+<summary>Adding new yarn</summary>
+<p>To add a new yarn on iPhone, tap the + button in the bottom-right corner of the Stash screen. On iPad, the "Add" button is located in the navigation bar above the stash list.</p>
+<p>From the Add Yarn screen, you can enter various details about your yarn. The following information is required: the yarn name, colorway, quantity, and color family.</p>
+</details>
+<details>
+<summary>Overriding yarn remaining</summary>
+<p>YarnBuddy attempts to calculate yarn remaining by querying for all finished projects linked to a particular yarn. The app then adds together the quantity of yarn associated with each project, and subtracts that from your stashed total.</p>
+<p>Please note that only projects marked "finished" affect the estimated yarn remaining. Additionally, if the yarn's quantity is listed in different units across different projects (i.e. 4 skeins for Project A, 4 grams for Project B, etc.), YarnBuddy will attempt to convert all quantities to the yarn's stashed quantity unit.</p>
+<p>If you find that YarnBuddy's estimate is inaccurate, you may override it by following these steps:</p>
+<ol>
+	<li>Open the yarn with the incorrect remaining estimate.</li>
+	<li>Tap "Edit" in the upper-right corner to enter edit mode.</li>
+	<li>Toggle "Override Yarn Remaining" to the "on" position and enter a new value and unit of measure.</li>
+	<li>Tap "Done" in the upper-right corner to save your changes and exit edit mode.</li>
+</ol>
+</details>
+
+<br>
+
+<h2>Time Tracking</h2>
+<details>
+<summary>Starting a timer</summary>
+<p>YarnBuddy Pro users can keep track of how much time they spend working on their projects. To start a timer:</p>
+<ol>
+	<li>Open the project you will be working on.</li>
+	<li>Tap the icon that looks like a bar chart to open the progress overview.</li>
+	<li>In the "Time Tracking" section, tap the "Start Timer" button. You can also pause or stop the timer in this section.</li>
+	<li>If you accidentally leave the timer running or need to adjust the duration in some way, see the section of the User Guide titled "Editing timed sessions."</li>
+</ol>
+</details>
+<details>
+<summary>Adding a timed session manually</summary>
+<p>To manually add a session:</p>
+<ol>
+	<li>Open the project you've been working on and tap the icon that looks like a bar chart to open the progress overview.</li>
+	<li>In the "Time Tracking" section, tap the + button in the upper-right corner to add a new timed session.</li>
+	<li>Enter the starting and ending time for your session. This will automatically fill in the duration fields. You can optionally edit the duration values (if, for instance, you took a 30-minute break sometime between the starting and ending time).</li>
+	<li>Tap "Save" in the upper-right corner to save the session.</li>
+</ol>
+</details>
+<details>
+<summary>Editing or deleting timed sessions</summary>
+<p>To edit or delete timed sessions:</p>
+<ol>
+	<li>Open the desired project and tap the icon that looks like a bar chart to open the progress overview.</li>
+	<li>In the "Time Tracking" section, tap "All timed sessions" to view a list of all sessions for that project.</li>
+	<li>From the list of sessions, you can swipe left on a session to delete it, or tap on it to edit it.</li>
+</ol>
+</details>
+
+<br>
+<p>If you have a question that's not answered here, or need to report a problem, you can contact me at <a href="mailto: feedback@beckyhansmeyer.com">feedback@beckyhansmeyer.com</a>.</p>
+</body>
+</html>
