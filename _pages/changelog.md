@@ -8,6 +8,34 @@ include_in_header: true
 
 ### `Latest`
 
+## Version 2.0.2
+Fixed: Switching themes no longer causes a crash on iOS 16.
+Fixed: Apple Watch complications that display the current project's row count should once again display the correct count.
+Added: You can now specify the length of needles in your tool stash.
+Added: You can now add images to tools in your tool stash.
+
+<br>
+            
+## Version 2.0.1
+- Fixed: An issue that prevented projects from being edited on iPhone.
+- Added "Drip dry in shade" to yarn care symbol list.
+
+<br>
+
+## Version 2.0
+- New: You can now easily add yarn care instructions (e.g. machine wash cold, do not iron) to your stashed yarns.
+- New: You can now search and contribute to a crowdsourced database of yarns. Tap the plus (+) to add a new yarn and use the search field at the top to see if your brand and colorway is in the database. New yarns will be added on a regular basis. At this time, a number of popular North American companies can be found, with more international brands on the way.
+- New: iOS 16 users with supported devices can scan yarn label barcodes to see if there is a match in the database. Supported devices include those containing an A12 bionic chip or later.
+- New: iOS 16 users can now toggle between project counters and notes in the bottom drawer.
+- New: All users (free and pro) can now choose from several accent colors in the App Theme section of Settings. These themes use the default system light and dark colors for most interface elements, but with an accent color for buttons, toggles, and headings.
+- New: iPadOS 16 users can toggle between a photo grid and list view for their yarn stash.
+- New: You can now use Markdown in your yarn and project notes.
+- New: YarnBuddy is now available for Mac!
+- Improved: iOS 16 users will see an improved flow for adding new and existing tags to projects.
+- Improved: Based on feedback, in iOS 16 users can once again reorder counters by pulling all the way up on the counter drawer and tapping the "Edit" button beneath the Counters heading.
+            
+<br>
+
 ## Version 1.9.1
 - Fixed: For patterns added from your photo library, it is now possible to zoom out far enough to see the entire pattern at once.
 - Improved: More performance improvements for users with large project libraries.
