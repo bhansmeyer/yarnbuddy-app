@@ -20,6 +20,25 @@ include_in_header: true
 
 <br>
 
+## Version 2.0.4
+- Fixed: The app should no longer crash when exporting a CSV.
+- Fixed: The app should now properly show the amount of yarn remaining in the stash after a project is marked as finished.
+- Fixed: The Mac version should now properly recognize a one-time YarnBuddy Pro purchase and unlock pro features accordingly.
+- Miscellaneous small bug fixes.
+
+<br>
+
+## Version 2.0.3
+- Added: Introducing Santa Skein: a new holiday-themed icon for pro users!
+- Added: Shorter needle length options, including 2", 2.75", 3" and 4.5" sizes.
+- Added: You can now add quantity information for tools in your tool stash.
+- Added: iOS/iPadOS users will find a new "Cool Links" section in Settings, with links to the Fasten Off Yarn-along, a Local Yarn Shop finder, and Yarn Database—a great place to find new designers, yarns, and more.
+- Improved: The list of associated projects on a yarn's detail page is now a nice scrolling list of thumbnail images.
+- Fixed: Choosing the "OG YarnBuddy" icon actually changes the icon.
+- Miscellaneous small bug fixes.
+
+<br>
+
 ## Version 2.0.2
 - Fixed: Switching themes no longer causes a crash on iOS 16.
 - Fixed: Apple Watch complications that display the current project's row count should once again display the correct count.
