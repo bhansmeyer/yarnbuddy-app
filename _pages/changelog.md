@@ -8,11 +8,23 @@ include_in_header: true
 
 ### `Latest`
 
+## Version 2.1
+- Added: An elven-inspired Lórien theme for Pro users.
+- Added: You can now switch between Rounded and Serif font styles for headings. Serif and Lórien make a great pair!
+- Added: Weaving is now available as a craft option, and Floor Loom can now be found in the Other Tools section.
+- Improved: On iOS it is now easier to delete a photo from a project and also to change the key photo shown at the top of a project: just tap and hold on a photo in the Photos section and a menu will pop up with both options.
+- Fixed: Knitting needles should sort properly by size.
+- Fixed: The app should no longer freeze/hang on iPad when viewing a yarn attached to a project.
+- Fixed: The Mac version should now allow URLs to be removed from notes. Also, the button for deleting a note has been moved; now you can tap the Edit button and find the Delete function in the lower left corner.
+- Miscellaneous bug and crash fixes.
+
+<br>
+
 ## Version 2.0.2
-Fixed: Switching themes no longer causes a crash on iOS 16.
-Fixed: Apple Watch complications that display the current project's row count should once again display the correct count.
-Added: You can now specify the length of needles in your tool stash.
-Added: You can now add images to tools in your tool stash.
+- Fixed: Switching themes no longer causes a crash on iOS 16.
+- Fixed: Apple Watch complications that display the current project's row count should once again display the correct count.
+- Added: You can now specify the length of needles in your tool stash.
+- Added: You can now add images to tools in your tool stash.
 
 <br>
             
