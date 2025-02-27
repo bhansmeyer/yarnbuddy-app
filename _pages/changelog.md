@@ -8,6 +8,69 @@ include_in_header: true
 
 ### `Latest`
 
+## Version 2.3.5
+- Fixed: Apple Watch users should no longer experiences hangs/freezes when launching the app.
+- Fixed: When adding a tool, the Notes field should now accept and display text entry as expected.
+- Fixed: It is now possible to edit the Custom ID of a yarn.
+- Fixed: Exporting your yarn stash as a CSV file should once again work as expected.
+- Fixed: Project completion dates should be properly restored from backup.
+- Fixed: Non-repeating counters will not exceed their ending values.
+- Fixed: When adding a new project and importing a pattern, the "Save web page" option now works as expected.
+- Fixed: When the counter list is expanded vertically, the repeat count should now appear in the corner of the counter.
+- Fixed: Duplicating a finished project that uses stashed yarn should no longer subtract double the amount of yarn from the quantity remaining (until the duplicated project is marked as finished).
+
+<br>
+
+## Version 2.3.4
+- Added: 7 mm and 7.5 mm knitting needles.
+- Fixed: Apple Watch complications now sync/update consistently.
+- Fixed: It is now possible to edit the quantity and price of a tool.
+- Fixed: It is now possible to edit the storage location of a yarn.
+- Fixed: Changes will now be saved when you edit the note or image associated with a tool in your tool stash.
+
+<br>
+
+## Version 2.3.3
+- This version contains crash fixes.
+
+<br>
+
+## Version 2.3.2
+- Improved: The small circular watch complication now shows the current row of your most recently updated project.
+- Miscellaneous bug fixes.
+
+<br>
+
+## Version 2.3.1
+- Fixed: Apple Watch compilcations should now appear properly on watchOS 10.
+
+<br>
+
+## Version 2.3
+
+- New: YarnBuddy for watchOS has been redesigned for watchOS 10! It also syncs faster and takes up less space.
+- New: You can now enter a storage location for yarn in your stash, as well as a custom ID (useful if you have your own cataloguing system).
+- Fixed: Needle length (i.e. 40cm circular needles) is now listed in all places where the needle is displayed.
+- Fixed: Users in locales that use commas for decimal numbers should now be able to enter decimal quantities properly.
+- Fixed: Certain PDF patterns will not allow the highlighter bar to be displayed; in these cases, the app will now fall back to using the old-style highlighter bar.
+- Miscellaneous bug fixes.
+
+<br>
+
+## Version 2.2
+
+- New: On iOS, YarnBuddy will periodically attempt to back up your data if there is sufficient storage available. This behavior can be disabled under Settings > Data & Backups.
+- New: You can also manually export a backup file to a location of your choice and reimport it if needed (iOS).
+- Improved: The app now remembers which craft you selected last and selects it automatically when starting a new project.
+- Improved: You can now add a pattern from the "Add Project" screen on iOS and iPadOS.
+- Improved: It is now more clear which fields are required when adding yarn.
+- Fixed: The "Restore Purchases" button on the YarnBuddy Pro information screen should now work consistently.
+- Fixed: The app should now remember the selected sort option for your yarn stash.
+- Fixed: There should no longer be any complication icons missing on watchOS.
+- Fixed: The Upgrade to YarnBuddy Pro screen is now properly optimized for larger text sizes.
+
+<br>
+
 ## Version 2.1
 - Added: An elven-inspired Lórien theme for Pro users.
 - Added: You can now switch between Rounded and Serif font styles for headings. Serif and Lórien make a great pair!
